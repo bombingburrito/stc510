@@ -1,0 +1,37 @@
+Script started on 2023-02-25 18:58:48-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;root@Ryan-PC: ~root@Ryan-PC:~# cd /'[K[K'/home/Module 2'
+[?2004l[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# ls
+[?2004lhistory_log.txt  [0m[01;31mlog.tar.gz[0m
+[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# tar -xvzf log.tar.gz
+[?2004llog.csv
+[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# ls
+[?2004lhistory_log.txt  log.csv  [0m[01;31mlog.tar.gz[0m
+[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# grep -o 'education.*\.txt' log.csv > codes.txt
+[?2004l[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# ls
+[?2004lcodes.txt  history_log.txt  log.csv  [0m[01;31mlog.tar.gz[0m
+[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# cat codes.txt > uniq [K[K[K[K[K[K[K| uniq > uniqcodes.txt
+[?2004l[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# ls
+[?2004lcodes.txt  history_log.txt  log.csv  [0m[01;31mlog.tar.gz[0m  uniqcodes.txt
+[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# cat uniqcodes.txt
+[?2004leducation0gscototal.txt
+education.txt
+education012910.txt
+education.realty.trust..txt
+education1.txt
+education.group..txt
+education0gscototal.txt
+education_tech.txt
+education.group..txt
+education0gscototal.txt
+education.gro.txt
+education_tech.txt
+education3.txt
+education_tech.txt
+education.group..txt
+education.txt
+educationrealty2008yebnymc.txt
+education.group..txt
+[?2004h]0;root@Ryan-PC: /home/Module 2root@Ryan-PC:/home/Module 2# exit
+[?2004lexit
+
+Script done on 2023-02-25 19:02:13-07:00 [COMMAND_EXIT_CODE="0"]
